@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/44cbabaaac.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#ABEF5F',
+                scolor: 'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);',
+
+              },
+              fontFamily:{
+                manrope: ["Manrope", "sans-serif"],
+              },
+            },
+          },
+        }
+      </script>
+
+</head>
+<body class="font-manrope">
+    <header>
+        <nav class="w-4/5 mx-auto">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li><a>Item 1</a></li>
+                      <li>
+                        <a>Parent</a>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </li>
+                      <li><a>Item 3</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">daisyUI</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Item 1</a></li>
+                    <li>
+                      <details>
+                        <summary>Parent</summary>
+                        <ul class="p-2">
+                          <li><a>Submenu 1</a></li>
+                          <li><a>Submenu 2</a></li>
+                        </ul>
+                      </details>
+                    </li>
+                    <li><a>Item 3</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <a class="btn">Button</a>
+                </div>
+              </div>
+        </nav>
+        <div class="w-4/5 mx-auto text-center">
+            <div>
+                <div class="flex justify-center">
+                    <img class="" src="assets/banner.png" alt="">
+                </div>
+                <h1 class="text-4xl md:text-5xl lg:text-[64px] w-full lg:w-10/12 mx-auto font-black text-center my-6 ">A barn house of this design has a striking appearance</h1>
+                <p class="text-4 w-3/5 mx-auto text-gray-500 my-4">Revival Designs is a renovation design company striving to reimagine, renovate and revive dated and neglected homes to uncover their hidden beauty. We purchase houses in select Cincinnati neighborhoods to rehab and resell, as well as offer affordable residential interior and exterior design services for homeowners and other real estate investors.</p>
+                <button class="bg-primary text-xl px-5 py-3 font-bold bg-opacity-50 rounded-full">View Details <i class="fa-solid fa-arrow-right-long -rotate-45 px-2 py-2 rounded-full bg-primary"></i></button>
+            </div>
+        </div>
+    </header>
+    
+</body>
+</html>
