@@ -16,11 +16,12 @@
             extend: {
               colors: {
                 primary: '#ABEF5F',
-                scolor: 'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);',
-
-              },
+                scolor: 'linear-gradient(0.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);'},
               fontFamily:{
                 manrope: ["Manrope", "sans-serif"],
+              },
+              backgroundImage: {
+                bImage: "url('./assets/bg.jpg')",
               },
             },
           },
@@ -92,7 +93,7 @@
                 <div class="lg:w-11/12 mx-auto">
                   <h1 class="text-3xl md:text-5xl lg:text-[64px] w-full lg:w-10/12 mx-auto font-black text-center my-6 ">A barn house of this design has a striking appearance</h1>
                 <p class="text-sm lg:text-base lg:w-3/5 mx-auto my-8 text-gray-600 my-4 font-semibold">Revival Designs is a renovation design company striving to reimagine, renovate and revive dated and neglected homes to uncover their hidden beauty. We purchase houses in select Cincinnati neighborhoods to rehab and resell, as well as offer affordable residential interior and exterior design services for homeowners and other real estate investors.</p>
-                <button class="bg-primary text-lg px-6 py-2 font-bold bg-opacity-50 rounded-full">View Details <i class="fa-solid fa-arrow-right-long -rotate-45 px-2 py-2 ml-2 rounded-full bg-primary"></i></button>
+                <button class="bg-primary text-lg px-6 py-2 font-black bg-opacity-50 rounded-full">View Details <i class="fa-solid fa-arrow-right-long  text-base px-2 py-1 -rotate-45 ml-1 rounded-full bg-primary"></i></button>
                 </div>
             
         </div>
@@ -104,8 +105,8 @@
           <img class="absolute top-10 -left-14" src="assets/Vector.png" alt="">
           <div>
             <div class="text-center lg:text-left md:text-left">
-              <button class="px-4 py-1 bg-white rounded-full text-lg font-black text-gray-700 "><i class="fa-solid fa-arrow-right-long font mr-1"></i>About Us</button>
-            <h2 class="lg:text-[40px] text-2xl font-black leading-10 mb-3 mt-4">We design thoughtful,<br> liveable spaces</h2>
+              <button class="px-4 py-1 bg-white rounded-full text-base font-bold text-gray-700 "><i class="fa-solid fa-arrow-right-long font mr-1"></i>About Us</button>
+            <h2 class="lg:text-[40px] md:text-4xl text-2xl font-black leading-10 mb-3 mt-4">We design thoughtful,<br> liveable spaces</h2>
             <p class="text-base text-gray-600 py-6 font-semibold">We understand that this may be the first time you’ve considered getting your home professionally styled and you’re concerned about making mistakes that could lower the desirability of the home. </p>
             </div>
 
@@ -113,7 +114,7 @@
               <div class="w-6/12 lg:w-fit md:w-fit"><img class="w-" src="assets/commercial.png" alt=""></div>
               <div>
                 <h3 class="text-xl font-black text-gray-600">Commercial</h3>
-                <p class="lg:w-10/12 text-base text-gray-500 mt-2">We guide each of our clients, step by step, through a seamless process to ultimately create their dream home.</p>
+                <p class="lg:w-10/12 text-base text-gray-500 mt-2">Commercial buildings are an essential part of modern society and play a significant role in the economy.</p>
               </div>
             </div>
 
@@ -126,21 +127,200 @@
             </div>
 
           </div>
-          <div class="w-fit">
-            <img class="block w-fit" src="assets/Rectangle.png" alt="">
+          <div class="flex w-fit">
+            <img class="size-full" src="assets/Rectangle.png" alt="">
           </div>
         </div>
       </section>
                 <!-- Card Section -->
       <section>
-        <div class="10/12 mx-auto py-28">
+        <div class="w-10/12 mx-auto bg-white text-center grid lg:grid-cols-4 md:grid-cols-2 gap-7 py-12 rounded-3xl">
           <div>
-            <div>
+            <i class="fa-regular fa-message text-4xl text-gray-600"></i>
+            <h3 class="text-[40px] font-black text-gray-700">235+</h3>
+            <p class="text-base text-gray-500 font-bold">Happy Client Review</p>
+          </div>
 
+          <div>
+            <i class="fa-regular fa-building text-4xl text-gray-600"></i>
+            <h3 class="text-[40px] font-black text-gray-700">50+</h3>
+            <p class="text-base text-gray-500 font-bold">Work Departments</p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-users text-4xl text-gray-600"></i>
+            <h3 class="text-[40px] font-black text-gray-700">30k+</h3>
+            <p class="text-base text-gray-500 font-bold">Out Happy Client</p>
+          </div>
+
+          <div>
+            <i class="fa-solid fa-users-gear text-4xl text-gray-600"></i>
+            <h3 class="text-[40px] font-black text-gray-700">307+</h3>
+            <p class="text-base text-gray-500 font-bold">Staff Members</p>
+          </div>
+        </div>
+      </section>
+      
+      <section>
+        <div class="w-10/12 mx-auto mt-28">
+          <div class="text-center">
+            <button class="px-4 py-1 bg-white rounded-full text-base font-bold text-gray-700 "><i class="fa-solid fa-arrow-right-long font mr-1"></i>How we works</button>
+            <h2 class="lg:text-[40px] md:text-4xl text-2xl font-black leading-10  mt-4">Our Works Process</h2>
+            <p class="text-base text-gray-600 py-6 font-semibold w-full lg:w-6/12 mx-auto">Our home designers carefully craft unique house plans for each client. No pile of stock plans, no recycled home designs, and best of all, no limitations—your vision will guide and inspire our experts throughout the custom home design process. </p>
+          </div>
+          <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-7 pb-28 mt-3">
+            <div class="bg-[#E7C1D3] px-5 py-8 rounded-2xl">
+              <img src="assets/concept.png" alt="">
+              <h3 class="text-xl font-black text-gray-900">Concept</h3>
+                <p class="text-base text-gray-700 font-semibold">Your input and opinions are central to the custom home design process.</p>
+            </div>
+            <div class="bg-[#EFDA6E] px-5 py-8 rounded-2xl">
+              <img src="assets/flow-chart.png" alt="">
+              <h3 class="text-xl font-black text-gray-900">Design Process</h3>
+                <p class="text-base text-gray-700 font-semibold">TDesign, your happiness is our top priority. We’re committed.</p>
+            </div>
+            <div class="bg-[#A4DAC3] px-5 py-8 rounded-2xl">
+              <img src="assets/vision.png" alt="">
+              <h3 class="text-xl font-black text-gray-900">Supervision</h3>
+                <p class="text-base text-gray-700 font-semibold">Based on the floor plan iterations, we design your dream home.</p>
+            </div>
+            <div class="bg-[#77AAEA] px-5 py-8 rounded-2xl">
+              <img src="assets/budget-planning.png" alt="">
+              <h3 class="text-xl font-black text-gray-900">Budget Planning</h3>
+                <p class="text-base text-gray-700 font-semibold">Isn’t price kind of important when designing a new home? We sure think so.</p>
             </div>
           </div>
         </div>
       </section>
+
+      <section class="bg-white">
+        <div class="w-10/12 mx-auto py-28">
+          <div class="text-center">
+            <button class="px-4 py-1 bg-primary bg-opacity-30 rounded-full text-base font-bold text-gray-700 "><i class="fa-solid fa-arrow-right-long font mr-1"></i>Explore our Latest works</button>
+            <h2 class="lg:text-[40px] md:text-4xl text-2xl font-black leading-10  mt-4">Our Latest Portfolio</h2>
+            <p class="text-base text-gray-600 py-6 font-semibold w-full lg:w-6/12 mx-auto">We pride ourselves in providing you with the best process in the business. We make YOU a pivotal part of the design process.</p>
+          </div>
+          <div class="grid lg:grid-cols-12 gap-8 mt-3 mb-8">
+            <div class="p-7 rounded-3xl lg:flex lg:col-span-9 sm: gap-5 border">
+              <img src="assets/img1.png" alt="">
+              <div class="">
+                <h3 class="text-xl font-black text-gray-600">Commercial</h3>
+                <p class="text-base text-gray-500 my-6">Commercial buildings are an essential part of modern society and play a significant role in the economy. They provide spaces for businesses to operate and offer a wide range of benefits to the commercial sector.</p>
+                <button class="text-lg font-black">View Details <i class="fa-solid fa-arrow-right-long text-base -rotate-45 px-2 py-1 ml-1 rounded-full bg-primary"></i></button>
+              </div>
+            </div>
+            <div class="lg:col-span-3 p-7 rounded-3xl border">
+              <img class="flex" src="assets/img2.png" alt="">
+            </div>
+          </div>
+
+          <div class="grid lg:grid-cols-12 gap-8">
+            <div class="lg:col-span-2 p-7 border rounded-3xl ">
+              <img class="size-full" src="assets/img3.png" alt="">
+            </div>
+
+            <div class="lg:col-span-8">
+              <div class="lg:flex p-7 rounded-3xl gap-5 border">
+                <img  class="" src="assets/img4.png" alt="">
+                <div class="">
+                  <h3 class="text-xl font-black text-gray-600">Commercial</h3>
+                  <p class="text-base text-gray-500 my-6">Commercial buildings are an essential part of modern society and play a significant role in the economy. They provide spaces for businesses to operate and offer a wide range of benefits to the commercial sector.</p>
+                  <button class="text-lg font-black">View Details <i class="fa-solid fa-arrow-right-long text-base -rotate-45 px-2 py-1 ml-1 rounded-full bg-primary"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-2 p-7 border rounded-3xl">
+              <img class="size-full" src="assets/img5.png" alt="">
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="w-10/12 mx-auto py-28">
+
+          <div class="text-center">
+            <button class="px-4 py-1 bg-primary bg-opacity-30 rounded-full text-base font-bold text-gray-700 "><i class="fa-solid fa-arrow-right-long font mr-1"></i>Rinterio News</button>
+            <h2 class="lg:text-[40px] md:text-4xl text-2xl font-black leading-10  mt-4">Read Our Articles and News</h2>
+            <p class="text-base text-gray-600 py-6 font-semibold w-full lg:w-6/12 mx-auto">We pride ourselves in providing you with the best process in the business. We make YOU a pivotal part of the design process.</p>
+          </div>
+
+          <div class="grid lg:grid-cols-3 gap-12">
+
+            <div class="p-8 bg-white rounded-2xl">
+              <div><img src="assets/article1.png" class="size-full" alt=""></div>
+              <div class="flex gap-4 items-center mt-3">
+                <i class="fa-regular fa-calendar-days text-gray-500 text-lg"></i>
+                <p class="text-sm text-gray-500">July14, 2024</p>
+                <i class="fa-solid fa-users-rectangle text-lg text-gray-500"></i>
+                <p class="text-sm text-gray-500">By Admin</p>
+              </div>
+              <h3 class="text-xl font-bold text-gray-700">How to choose the furniture right of your home</h3>
+              <p class="text-base text-gray-500 my-2">We have all imagine the the house of our dreams. But the reality is that, when facing the choice of furniture for your home</p>
+              <button class="text-lg font-black">Read More<i class="fa-solid fa-arrow-right-long text-base -rotate-45 px-2 py-1 ml-1 rounded-full bg-primary"></i></button>
+            </div>
+
+            <div class="p-8 bg-white rounded-2xl">
+              <div><img src="assets/article2.png" class="size-full" alt=""></div>
+              <div class="flex gap-4 items-center mt-3">
+                <i class="fa-regular fa-calendar-days text-gray-500 text-lg"></i>
+                <p class="text-sm text-gray-500">July14, 2024</p>
+                <i class="fa-solid fa-users-rectangle text-lg text-gray-500"></i>
+                <p class="text-sm text-gray-500">By Admin</p>
+              </div>
+              <h3 class="text-xl font-bold text-gray-700">How to choose the furniture right of your home</h3>
+              <p class="text-base text-gray-500 my-2">We have all imagine the the house of our dreams. But the reality is that, when facing the choice of furniture for your home</p>
+              <button class="text-lg font-black">Read More<i class="fa-solid fa-arrow-right-long text-base -rotate-45 px-2 py-1 ml-1 rounded-full bg-primary"></i></button>
+            </div>
+
+            <div class="p-8 bg-white rounded-2xl">
+              <div><img src="assets/article3.png" class="size-full" alt=""></div>
+              <div class="flex gap-4 items-center mt-3">
+                <i class="fa-regular fa-calendar-days text-gray-500 text-lg"></i>
+                <p class="text-sm text-gray-500">July14, 2024</p>
+                <i class="fa-solid fa-users-rectangle text-lg text-gray-500"></i>
+                <p class="text-sm text-gray-500">By Admin</p>
+              </div>
+              <h3 class="text-xl font-bold text-gray-700">How to choose the furniture right of your home</h3>
+              <p class="text-base text-gray-500 my-2">We have all imagine the the house of our dreams. But the reality is that, when facing the choice of furniture for your home</p>
+              <button class="text-lg font-black">Read More<i class="fa-solid fa-arrow-right-long text-base -rotate-45 px-2 py-1 ml-1 rounded-full bg-primary"></i></button>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="bg-bImage py-28 bg-no-repeat bg-cover">
+        <div class="lg:w-10/12 mx-auto">
+
+          <div class="text-center">
+            <button class="px-4 py-1 bg-primary bg-opacity-30 rounded-full text-base font-bold text-gray-700 "><i class="fa-solid fa-arrow-right-long font mr-1"></i>Let's Connect</button>
+            <h2 class="lg:text-[40px] md:text-4xl text-2xl font-black leading-10  mt-4">Let's Discuss Next Project</h2>
+            <p class="text-base text-gray-600 py-6 font-semibold w-full lg:w-6/12 mx-auto">We pride ourselves in providing you with the best process in the business. We make YOU a pivotal part of the design process.</p>
+          </div>
+
+          <div class="w-8/12 mx-auto">
+            <form action="" class="grid lg:grid-cols-2 gap-7">
+              <input type="text" placeholder="First Name*" class="input rounded-full">
+              <input type="text" placeholder="Last Name*" class="input rounded-full">
+              <input type="number" placeholder="Phone Number*" class="input rounded-full">
+              <input type="email" placeholder="Email Number*" class="input  rounded-full">
+            </form>
+            <textarea class="textarea h-32 block w-full mt-7 rounded-3xl" name="" placeholder="Write your message here" id=""></textarea>
+
+            <button class="bg-primary my-7 w-full text-lg px-6 py-2 font-black rounded-full">Send Mail <i class="fa-solid fa-arrow-right-long  text-base px-2 py-1 -rotate-45 ml-1 rounded-full bg-black text-white"></i></button>
+          </div>
+
+          <div>
+            
+          </div>
+          
+        </div>
+      </section>
+
     </main>
 </body>
 </html>
