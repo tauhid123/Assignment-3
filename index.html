@@ -30,61 +30,47 @@
 
 </head>
 <body class="font-manrope">
-    <header class="bg-gradient-to-r from-white to-white-50 pb-28">
-        <nav class="w-10/12 mx-auto">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Item 1</a></li>
-                      <li>
-                        <a>Parent</a>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </li>
-                      <li><a>Item 3</a></li>
-                    </ul>
-                  </div>
-                  <a class="btn btn-ghost text-xl">daisyUI</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Item 1</a></li>
-                    <li>
-                      <details>
-                        <summary>Parent</summary>
-                        <ul class="p-2">
-                          <li><a>Submenu 1</a></li>
-                          <li><a>Submenu 2</a></li>
-                        </ul>
-                      </details>
-                    </li>
-                    <li><a>Item 3</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn">Button</a>
-                </div>
-              </div>
-        </nav>
+    <header class="pb-28">
+      <nav class="lg:w-10/12 mx-auto">
+        <div class="navbar bg-base-100 ">
+        <div style="" class="navbar-start lg:w-2/4">
+          <a class="flex items-center text-[#212121] text-4xl font-black"><i class="fa-solid fa-arrow-right-long  text-base px-2 py-1 -rotate-45 ml-1 rounded-full bg-primary mr-2 text-black"></i>Rinterio</a>
+          <div class="dropdown py-0 px-0 bg-slate-50 border border-gray-300 rounded-full">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <i class="fa-solid fa-bars text-xl text-gray-700"></i>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow bg-slate-100">
+              <li><a class="text-base font-black">Home</a></li>
+            <li><a class="text-base font-semibold text-gray-500">Services</a></li>
+            <li><a class="text-base font-semibold text-gray-500">Portfolio</a></li>
+            <li><a class="text-base font-semibold text-gray-500">Blogs</a></li>
+            <li><a class="text-base font-semibold text-gray-500">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="" class="navbar-center hidden lg:flex lg:w-full justify-evenly">
+          <ul class="menu menu-horizontal px-1 text-center ju">
+            <li><a class="text-base font-black">Home</a></li>
+            <li><a class="text-base font-semibold text-gray-500">Services</a></li>
+            <li><a class="text-base font-semibold text-gray-500">Portfolio</a></li>
+            <li><a class="text-base font-semibold text-gray-500">Blogs</a></li>
+            <li><a class="text-base font-semibold text-gray-500">Contact Us</a></li>
+          </ul>
+          <div>
+          <ul class="navbar-center hidden lg:flex items-center gap-4">
+            <li><a class="h-10 w-10 rounded-full flex justify-center items-center border border-gray-200 bg-white"><i class="fa-solid fa-magnifying-glass text-lg bg-white text-gray-600"></i></a></li>
+            <li><a class="h-10 w-10 rounded-full flex justify-center items-center border border-gray-200 bg-white"><i class="fa-solid fa-cart-shopping text-lg text-gray-600"></i></a></li>
+            <li><a class="bg-primary my-7 text-lg px-6 py-3 font-black rounded-full">Book Consult<i class="fa-solid fa-arrow-right-long  text-base px-2 py-1 -rotate-45 ml-1 rounded-full bg-black text-white"></i></a></li>
+          </ul>
+        </div>
+        </div>
+        <!-- <div class="navbar-end">
+        </div> -->
+        </div>
+      </nav>
         <div class="w-10/12 mx-auto text-center">
             
                 <div class="flex justify-center">
@@ -96,21 +82,21 @@
                 <button class="bg-primary text-lg px-6 py-2 font-black bg-opacity-50 rounded-full">View Details <i class="fa-solid fa-arrow-right-long  text-base px-2 py-1 -rotate-45 ml-1 rounded-full bg-primary"></i></button>
                 </div>
             
-        </div>
+        </div>  
     </header>
     <main class="bg-[#F4F4F4]">
       <!-- ABOUT SECTION -->
       <section >
-        <div class="w-10/12 mx-auto grid lg:grid-cols-2 gap-7 py-28 relative">
+        <div class="w-10/12 mx-auto grid lg:grid-cols-12 gap-14 py-28 relative">
           <img class="absolute top-10 -left-14" src="assets/Vector.png" alt="">
-          <div>
+          <div class="lg:col-span-7">
             <div class="text-center lg:text-left md:text-left">
               <button class="px-4 py-1 bg-white rounded-full text-base font-bold text-gray-700 "><i class="fa-solid fa-arrow-right-long font mr-1"></i>About Us</button>
             <h2 class="lg:text-[40px] md:text-4xl text-2xl font-black leading-10 mb-3 mt-4">We design thoughtful,<br> liveable spaces</h2>
-            <p class="text-base text-gray-600 py-6 font-semibold">We understand that this may be the first time you’ve considered getting your home professionally styled and you’re concerned about making mistakes that could lower the desirability of the home. </p>
+            <p class="text-base text-gray-600 py-6 my-5 font-semibold">We understand that this may be the first time you’ve considered getting your home professionally styled and you’re concerned about making mistakes that could lower the desirability of the home. </p>
             </div>
 
-            <div class="flex gap-5 px-5 py-6 rounded-2xl lg:items-center bg-white mb-7 mt-1">
+            <div class="flex gap-5 px-5 py-6 rounded-2xl lg:items-center bg-white mb-8 mt-1">
               <div class="w-6/12 lg:w-fit md:w-fit"><img class="w-" src="assets/commercial.png" alt=""></div>
               <div>
                 <h3 class="text-xl font-black text-gray-600">Commercial</h3>
@@ -125,10 +111,10 @@
                 <p class="lg:w-10/12 text-base text-gray-500 mt-2">Our clients run the gamut of multi-residential and duplex builders to first time home renovators.</p>
               </div>
             </div>
-
           </div>
-          <div class="flex w-fit">
-            <img class="size-full" src="assets/Rectangle.png" alt="">
+
+          <div class="lg:col-span-5 ">
+            <img class="" src="assets/Rectangle.png" alt="">
           </div>
         </div>
       </section>
@@ -303,7 +289,7 @@
           </div>
 
           <div class="lg:w-8/12 mx-auto">
-            <form action="" class="grid lg:grid-cols-2 gap-7">
+            <form action="" class="grid lg:grid-cols-2 p-6 gap-7">
               <input type="text" placeholder="First Name*" class="input rounded-full">
               <input type="text" placeholder="Last Name*" class="input rounded-full">
               <input type="number" placeholder="Phone Number*" class="input rounded-full">
@@ -321,7 +307,7 @@
       <div class="w-10/12 mx-auto">
        <div class="text-center">
         <button class=" text-white flex mx-auto items-center text-4xl font-bold"><i class="fa-solid fa-arrow-right-long  text-base px-2 py-1 -rotate-45 ml-1 rounded-full bg-primary mr-2 text-black"></i>Rinterio</button>
-        <p class="text-gray-500 text-base lg:w-6/12 mx-auto my-4">Revival Designs is a renovation design company striving to reimagine, renovate and revive dated and neglected homes to uncover their hidden beauty.</p>
+        <p class="text-gray-500 text-base lg:w-6/12 mx-auto mt-8">Revival Designs is a renovation design company striving to reimagine, renovate and revive dated and neglected homes to uncover their hidden beauty.</p>
        </div>
        <div class="lg:flex mx-auto text-center justify-center">
         <ul class="text-white lg:flex gap-[8rem] my-6 ">
